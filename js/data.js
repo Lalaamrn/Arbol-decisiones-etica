@@ -53,7 +53,7 @@ const DECISION_TREE_DATA = {
           id: "opcion-b",
           letter: "B",
           title: "Opción B",
-          longDescription: "El gerente te ofrece pagarte el doble de sueldo si tú mismo te encargas de instalar la red eléctrica principal de alta tensión de la fábrica. El detalle es que tu especialidad no es la electricidad y nunca has hecho algo así, pero te dicen: 'Tú eres ingeniero, acepta, miras un par de tutoriales y lo sacamos adelante'.",
+          shortDescription: "El gerente te ofrece pagarte el doble de sueldo si tú mismo te encargas de instalar la red eléctrica principal de alta tensión de la fábrica. El detalle es que tu especialidad no es la electricidad y nunca has hecho algo así, pero te dicen: 'Tú eres ingeniero, acepta, miras un par de tutoriales y lo sacamos adelante'.",
           targetNodeId: "opcion-b",
           image: "assets/images/img-opcion-b.jpg",
           badgeColor: "purple",
