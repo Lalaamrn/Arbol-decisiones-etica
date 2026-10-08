@@ -1,0 +1,161 @@
+/* ==========================================================================
+   ÁRBOL DE DECISIONES 1: DISEÑO RESPONSIVE Y ACCESIBILIDAD
+   ========================================================================== */
+
+/* Laptops y Pantallas Medianas (<= 1200px) */
+@media (max-width: 1200px) {
+  .cover-hero-grid {
+    gap: 2rem;
+  }
+
+  .situation-layout-grid,
+  .branch-layout-grid,
+  .consequence-layout-grid,
+  .direct-b-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .tree-map-visual-container {
+    grid-template-columns: 1fr;
+  }
+
+  .tree-concept-card {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+/* Tablets (<= 992px) */
+@media (max-width: 992px) {
+  .app-header {
+    padding: 0.75rem 1rem;
+  }
+
+  .header-container {
+    flex-wrap: wrap;
+  }
+
+  .nav-center-section {
+    order: 3;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 0.25rem;
+  }
+
+  .cover-hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cover-media-panel {
+    order: -1;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .tree-node-branches-row {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .tree-branches-connector {
+    display: none;
+  }
+
+  .consequence-actions-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Móviles (<= 640px) */
+@media (max-width: 640px) {
+  .app-viewport {
+    padding: 1.25rem 1rem 2.5rem;
+  }
+
+  .option-decision-card {
+    grid-template-columns: 1fr;
+  }
+
+  .card-image-preview {
+    height: 160px;
+  }
+
+  .sub-option-card {
+    grid-template-columns: 1fr;
+  }
+
+  .sub-card-media {
+    height: 150px;
+  }
+
+  .btn-xl {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cover-actions-row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .screen-footer-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .screen-footer-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .consequence-navigation-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .nav-left, .nav-right {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nav-left .btn, .nav-right .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .modal-dialog {
+    max-height: 95vh;
+  }
+
+  .modal-header {
+    padding: 1rem;
+  }
+
+  .modal-body {
+    padding: 1rem;
+  }
+
+  .tree-legend {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .tree-map-footer {
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: flex-start;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+  }
+
+  .footer-shortcuts {
+    display: none;
+  }
+}
