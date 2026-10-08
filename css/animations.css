@@ -1,0 +1,29 @@
+/* ==========================================================================
+   ÁRBOL DE DECISIONES 1: TRANSICIONES EDITORIALES SUTILES
+   ========================================================================== */
+
+/* Entrada Suave de Diapositiva */
+.fade-enter-active {
+  animation: gentleFadeIn 0.28s ease-out forwards;
+}
+
+@keyframes gentleFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Reducción de Movimiento */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
